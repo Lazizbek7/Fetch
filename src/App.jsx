@@ -1,7 +1,7 @@
 import './App.css'
 import Store from './components/book-store'
 import User from './components/user'
-import Persons from './components/persons'
+import People from './components/people'
 import Comments from './components/comments'
 import Products from './components/products'
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <>
       <Store/>
       <User/>
-      <Persons/>
+      <People/>
       <Comments/>
       <Products/>
     </>

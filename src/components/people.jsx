@@ -15,7 +15,7 @@ const persons = () => {
     // console.log(data);
   return (
     <div>
-        <h1>Persons</h1>
+        <h1>People</h1>
         {   
             data.map((dat) => {
                 return(
