@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+  
+  }
+  :root {
+    font-size: 20px;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  
+  p {
+    margin: 0;
+  }
+  
+  
+  
+  body {
+    font: 1em/1.618 Inter, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    padding: 50px;
+    margin: 0;
+    
+    color: #224;
+    background:
+      url(https://source.unsplash.com/E8Ufcyxz514/2400x1823)
+      center / cover no-repeat fixed;
+  }
+  .wrap_card{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: center;
+    margin: 0 auto;
+    gap: 40px;
+  }
+  .card {
+    min-width: 500px;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 500px;
+    height: 300px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  
+    backdrop-filter: blur(15px);
+  }
+  
+  .card-footer {
+    font-size: 0.65em;
+    color: #446;
+  }
+  .wrapper{
+    width: 100%;
+    margin: 0 auto;
+    
+  }
+  .head_line{
+    margin: 0 auto;
+    font-size: 40px;
+    margin-top: 40px ;
+    margin-bottom: 40px ;
+  }
+  p{
+    font-size: 25px;
+  }
+  .Big_P{
+    font-size: 45px;
+  }
+  .Large_P{
+    font-size: 40px;
+  }
+  #Large_card{
+    min-height: 1000px;
+  }
+  .Loader{
+      margin-top:300px ;
+      margin-left: 603px;
+  }
+  .card1 {
+    min-width: 500px;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 500px;
+    height: 300px;
+    padding: 15px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, .25);
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.45);
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.25);
+  
+    backdrop-filter: blur(15px);
+  }
